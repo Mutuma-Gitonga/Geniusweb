@@ -1,29 +1,32 @@
-
-$(document).ready(function(){
-
-
-	/* ---- Countdown timer ---- */
-
-	$('#counter').countdown({
-		timestamp : (new Date()).getTime() + 11*24*60*60*1000
-	});
+$(document).ready(function () {
 
 
-	/* ---- Animations ---- */
+    /* ---- Countdown timer ---- */
 
-	$('#links a').hover(
-		function(){ $(this).animate({ left: 3 }, 'fast'); },
-		function(){ $(this).animate({ left: 0 }, 'fast'); }
-	);
+    $('#counter').countdown({
+        timestamp: (new Date()).getTime() + 11 * 24 * 60 * 60 * 1000
+    });
 
-	$('footer a').hover(
-		function(){ $(this).animate({ top: 3 }, 'fast'); },
-		function(){ $(this).animate({ top: 0 }, 'fast'); }
-	);
 
- 
+    /* ---- Animations ---- */
 
-	 
+    $('#links a').hover(
+        function () {
+            $(this).animate({left: 3}, 'fast');
+        },
+        function () {
+            $(this).animate({left: 0}, 'fast');
+        }
+    );
+
+    $('footer a').hover(
+        function () {
+            $(this).animate({top: 3}, 'fast');
+        },
+        function () {
+            $(this).animate({top: 0}, 'fast');
+        }
+    );
 
 
 });
