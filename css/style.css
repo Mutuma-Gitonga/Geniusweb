@@ -610,11 +610,7 @@ ul.multi-column-dropdown h6 {
 }
 
 .navbar-nav {
-    float: none;
-}
-
-.navbar-nav > li:nth-child(1) {
-    margin-left: 12em;
+    display: inline;
 }
 
 .w3ls_products_pos h4 {
@@ -650,20 +646,15 @@ li.w3pages .dropdown-menu > li > a:hover {
     color: #ff5063;
 }
 
-/*-- //navigation --*/
-/*-- banner --*/
-.banner {
-    background: url(../images/b1.jpg) no-repeat center 0px;
+.banner.banner10 {
+    min-height: 300px;
+    background: url(../images/b1.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
-    min-height: 700px;
 }
-
-.banner.banner10 {
-    min-height: 300px;
 }
 
 .banner.banner1, .banner.banner2, .banner.banner3 {
@@ -679,7 +670,7 @@ li.w3pages .dropdown-menu > li > a:hover {
 }
 
 .banner.banner1 {
-    background: url(../images/bg1.jpg) no-repeat center;
+    background: url(../images/b1.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -688,7 +679,7 @@ li.w3pages .dropdown-menu > li > a:hover {
 }
 
 .banner.banner2 {
-    background: url(../images/bg2.jpg) no-repeat center;
+    background: url(../images/b1.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -697,7 +688,7 @@ li.w3pages .dropdown-menu > li > a:hover {
 }
 
 .banner.banner3 {
-    background: url(../images/bg3.jpg) no-repeat center;
+    background: url(../images/b1.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -741,7 +732,7 @@ li.w3pages .dropdown-menu > li > a:hover {
 /*-- //banner --*/
 /*-- banner-bottom --*/
 .banner-bottom, .team, .checkout, .additional_info, .team-bottom, .single, .mail, .special-deals, .about, .faq, .typo, .new-products, .banner-bottom1, .top-brands, .mobiles, .w3l_related_products {
-    padding: 5em 0;
+    padding: 2em 0;
 }
 
 .modal-body iframe {
