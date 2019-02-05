@@ -38,7 +38,7 @@ input[type="submit"], .panel-body ul li a, .checkout-right-basket a, .additional
 }
 
 .header {
-    padding: 2em 0 0;
+    padding: 0.5em 0 0;
 }
 
 .w3l_login {
@@ -604,7 +604,7 @@ ul.multi-column-dropdown h6 {
 }
 
 .navigation {
-    margin: 2em 0 0;
+    margin: 0em 0 0;
     text-align: center;
     background: #3c43a4;
 }
@@ -655,6 +655,7 @@ li.w3pages .dropdown-menu > li > a:hover {
     -o-background-size: cover;
     -ms-background-size: cover;
 }
+
 }
 
 .banner.banner1, .banner.banner2, .banner.banner3 {
