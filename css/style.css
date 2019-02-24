@@ -6207,3 +6207,17 @@ td.invert-image a img {
         margin-bottom: 1em;
     }
 }
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .brand {
+        width: 100%;
+        margin: auto
+    }
+}
+
+@media (min-width: 480px) {
+    .brand {
+        width: 400px;
+        margin: auto
+    }
+}
